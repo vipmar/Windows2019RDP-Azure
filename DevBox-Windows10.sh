@@ -16,7 +16,7 @@ printf '\nVisit https://dashboard.ngrok.com/get-started/setup and Copy the autht
 read -p "Paste authtoken here (Copy and Right-click to paste): " CRP
 printf '\nDownloading NGROK... \n'
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip *.zip
-wget https://gitlab.com/haithuongpro2711/haivps/-/raw/master/ngrok-choice-linux.sh
+wget https://raw.githubusercontent.com/docefio/Windows2019RDP-Azure/main/ngrok-choice-linux.sh
 ./ngrok authtoken $CRP
 clear
 chmod +x ngrok-choice-linux.sh
@@ -38,7 +38,7 @@ echo All done! Connect your VM using RDP.
 echo IP:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo User: Administrator
-echo Pass: Thuonghai001
+echo Pass: S@ad.m02
 echo Finished! You can Close PUTTY now.
 
 
