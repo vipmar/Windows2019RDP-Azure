@@ -21,3 +21,5 @@ jobs:
      displayName: 'Run RDP on Azure Pipeline'
 
 ```
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=docefio.Windows2019RDP-Azure)
