@@ -9,7 +9,7 @@ code:
 ```
 
 jobs:
-- job: Windows2019RDP-Azure
+- job: Windows2019RDP_Azure
   pool:
     vmImage: windows-latest
   steps:
