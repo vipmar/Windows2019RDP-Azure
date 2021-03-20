@@ -11,7 +11,7 @@ echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Can't get NGROK tunnel, please paste new NGROK TOKEN in YML. Check Tunnel here: https://dashboard.ngrok.com/status/tunnels " && exit 
 echo User: Administrator
 echo Pass: S@ad.m02
-echo Telegram: https://t.me/mmahim
+echo Telegram: https://t.me/ahmed_saaaad
 curl -O https://raw.githubusercontent.com/docefio/Windows2019RDP-Azure/main/files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/docefio/Windows2019RDP-Azure/main/files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\EVKey Vietnamese Keyboard.exe" https://raw.githubusercontent.com/docefio/Windows2019RDP-Azure/main/files/EVKey64.exe > out.txt 2>&1
