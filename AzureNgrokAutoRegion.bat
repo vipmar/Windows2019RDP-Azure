@@ -1,4 +1,4 @@
-echo Author: https://t.me/mmahim
+echo Author: https://t.me/ahmed_saaaad
 @echo off
 title Azure-Auto-Region
 
